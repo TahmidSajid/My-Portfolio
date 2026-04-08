@@ -90,14 +90,14 @@ function ProjectCard({ project, delay }) {
               <FiExternalLink /> Live Demo
             </a>
           )}
-          <a
+          {/* <a
             href={project.github}
             target="_blank"
             rel="noopener noreferrer"
             className="project-overlay-btn outline"
           >
             <FiGithub /> Source
-          </a>
+          </a> */}
         </div>
       </div>
 
@@ -133,9 +133,9 @@ function ProjectCard({ project, delay }) {
               </a>
             )}
           </div>
-          <div className="project-stars">
+          {/* <div className="project-stars">
             <FiStar /> {project.stars}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

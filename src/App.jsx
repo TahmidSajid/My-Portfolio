@@ -11,7 +11,7 @@ import Cursor from './components/Cursor';
 import ScrollProgress from './components/ScrollProgress';
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 1800);

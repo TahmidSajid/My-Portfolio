@@ -38,7 +38,7 @@ export default function Navbar() {
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <a href="#hero" className="nav-logo" onClick={() => handleNav('#hero')}>
           <span className="bracket">&lt;</span>
-          <span>Dev</span>
+          <span></span>
           <span className="bracket">/&gt;</span>
         </a>
 

@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="footer-brand">
           <div className="footer-logo">
             <span className="bracket">&lt;</span>
-            <span>Dev</span>
+            <span></span>
             <span className="bracket">/&gt;</span>
           </div>
           <p className="footer-tagline">

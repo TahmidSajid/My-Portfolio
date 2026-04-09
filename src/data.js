@@ -3,6 +3,8 @@
 // Update your info here and every component updates automatically
 // ============================================================
 
+import resumePDF from './assets/resume.pdf';
+
 // ─── Personal Info ───────────────────────────────────────────
 export const personalInfo = {
   name: 'Tahmid Khan Sajid',
@@ -14,17 +16,18 @@ export const personalInfo = {
   email: 'tahmidkhansajid@gmail.com',
   phone: '+8801799863305',
   location: 'Dhaka, Bangladesh',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: resumePDF,   // ← auto-loaded from src/assets/resume.pdf
   available: true, // toggles the "Available for work" badge
   experience: '1.5+', // years
   projectsDone: '7',
   clients: '20+',
   primaryStack: 'Laravel',
   bio: [
-    "I'm a passionate <strong>Laravel &amp; PHP developer</strong> with 1.5+ years of experience crafting scalable, high-performance web applications. I specialize in designing clean RESTful APIs, optimizing database queries, and delivering maintainable codebases that teams love to work with.",
+    "I am a <strong>Laravel backend developer</strong> with strong experience in building SaaS platforms, fintech solutions, and scalable web applications. I focus on creating secure, maintainable, and performance-driven systems tailored for real-world business needs.",
+    "I have worked on multiple production-level systems including virtual card issuing platforms, AI chatbot SaaS, booking systems, and digital commerce solutions. My goal is to deliver efficient backend architectures that power seamless user experiences."
   ],
   heroDescription:
-    'Passionate Laravel developer specializing in building robust, scalable web applications with clean code and elegant APIs. I turn complex business requirements into elegant digital solutions.',
+    'I specialize in developing high-performance Laravel applications including SaaS platforms, fintech systems, AI solutions, and booking systems.',
 };
 
 // ─── Typed Roles (Hero typewriter) ───────────────────────────
@@ -48,10 +51,9 @@ export const navLinks = [
 // ─── Social Links ─────────────────────────────────────────────
 // iconKey maps to react-icons used in components
 export const socialLinks = [
-  { iconKey: 'github',   href: 'https://github.com',   label: 'GitHub' },
-  { iconKey: 'linkedin', href: 'https://linkedin.com', label: 'LinkedIn' },
-  { iconKey: 'twitter',  href: 'https://twitter.com',  label: 'Twitter' },
-  { iconKey: 'email',    href: `mailto:your@email.com`, label: 'Email' },
+  { iconKey: 'github',   href: 'https://github.com/TahmidSajid',   label: 'GitHub' },
+  { iconKey: 'linkedin', href: 'https://www.linkedin.com/in/tahmid-khan-sajid-9ab41a270/', label: 'LinkedIn' },
+  { iconKey: 'email',    href: 'https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox', label: 'Email' },
 ];
 
 // ─── Stats (About section) ────────────────────────────────────
@@ -86,6 +88,7 @@ export const skills = [
   { name: 'React',      iconKey: 'react',       color: '#61dafb', level: 100, category: 'Frontend' },
   { name: 'JavaScript', iconKey: 'javascript',  color: '#f7df1e', level: 100, category: 'Frontend' },
   { name: 'Tailwind',   iconKey: 'tailwind',    color: '#38bdf8', level: 100, category: 'Frontend' },
+  { name: 'Bootstrap',  iconKey: 'bootstrap',   color: '#7952b3', level: 100, category: 'Frontend' },
 
   // Database
   { name: 'MySQL',      iconKey: 'mysql',       color: '#4479a1', level: 100, category: 'Database' },

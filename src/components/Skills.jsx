@@ -6,7 +6,7 @@ import {
 import {
   SiMysql, SiPostgresql, SiRedis, SiNginx,
   SiComposer, SiTailwindcss, SiJavascript,
-  SiFilament, SiPostman
+  SiFilament, SiPostman, SiBootstrap
 } from 'react-icons/si';
 import { TbApi, TbBrandVscode } from 'react-icons/tb';
 import { skills, skillCategories } from '../data';
@@ -34,6 +34,7 @@ const resolveIcon = (iconKey, color) => {
     postman:    <SiPostman color={color} />,
     vscode:     <TbBrandVscode color={color} />,
     filament:   <SiFilament color={color} />,
+    bootstrap:  <SiBootstrap color={color} />,
   };
   return map[iconKey] ?? <span style={{ color }}>{iconKey[0].toUpperCase()}</span>;
 };
